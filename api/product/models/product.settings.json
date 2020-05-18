@@ -41,6 +41,32 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "Category": {
+      "type": "enumeration",
+      "enum": [
+        "Auto",
+        "Pets",
+        "Property"
+      ]
+    },
+    "Subcategory": {
+      "type": "enumeration",
+      "enum": [
+        "Cats",
+        "Dogs",
+        "Dragons",
+        "Rabbits"
+      ]
+    },
+    "Type": {
+      "type": "enumeration",
+      "enum": [
+        "BMW",
+        "Volvo",
+        "Munchkin",
+        "Golden"
+      ]
     }
   }
 }
